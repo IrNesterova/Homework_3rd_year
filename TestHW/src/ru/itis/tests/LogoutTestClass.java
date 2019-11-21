@@ -8,5 +8,6 @@ public class LogoutTestClass extends TestBase {
     public void logoutTest(){
         app.getNavigationHelper().openHomePage();
         app.getLoginHelper().logout();
+        app.Wait();
     }
 }

@@ -10,7 +10,9 @@ public class DeleteMessageTestClass extends TestBase{
         app.getNavigationHelper().openHomePage();
         AccountData accountData = new AccountData("Avartia", "11c8945f");
         app.getLoginHelper().login(accountData);
+        app.Wait();
         app.getNavigationHelper().openDiaryPage();
         app.getMessageHelper().deletePost();
+        app.Wait();
     }
 }

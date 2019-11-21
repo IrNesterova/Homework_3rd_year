@@ -12,6 +12,7 @@ public class LoginTestClass extends TestBase {
         AccountData acc = new AccountData("Avartia", "11c8945f");
         app.getLoginHelper().login(acc);
         app.getNavigationHelper().openHomePage();
+        app.Wait();
     }
 
 

@@ -6,8 +6,23 @@ import ru.itis.helpers.LoginHelper;
 import ru.itis.helpers.MessageHelper;
 import ru.itis.helpers.NavigationHelper;
 
+import java.util.concurrent.TimeUnit;
+
 public class ApplicationManager {
     private WebDriver webDriver;
+    private static ThreadLocal<ApplicationManager> app = new ThreadLocal<>(){
+        @Override
+        protected ApplicationManager initialValue() {
+            return super.initialValue();
+        }
+
+        @Override
+        public ApplicationManager get() {
+            return super.get();
+        }
+    };
+
+
     private LoginHelper loginHelper;
     private MessageHelper messageHelper;
     private NavigationHelper navigationHelper;
@@ -37,8 +52,9 @@ public class ApplicationManager {
         messageHelper = new MessageHelper(this);
         navigationHelper = new NavigationHelper(this, baseURL);
     }
-
-
+    public void Wait(){
+        webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    }
     public void Stop(){
         webDriver.quit();
     }

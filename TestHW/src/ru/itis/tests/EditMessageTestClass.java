@@ -11,9 +11,11 @@ public class EditMessageTestClass extends TestBase {
         app.getNavigationHelper().openHomePage();
         AccountData accountData = new AccountData("Avartia", "11c8945f");
         app.getLoginHelper().login(accountData);
+        app.Wait();
        app.getNavigationHelper().openDiaryPage();
        MessageData messageData = new MessageData("лавлавыа", "fdfsd");
        app.getMessageHelper().editPost(messageData);
+        app.Wait();
     }
 
 }
