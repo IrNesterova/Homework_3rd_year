@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3efac58-5152-4d51-8603-bbb64e1a52b9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TLaPHpWCh2X5ArfvhzOOmaLnWU" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LongPolling/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\untitled\src\ru\itis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTestClass.loginTest">
+    <configuration name="LoginTestClass.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itis.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.LoginTestClass" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBase.Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itis.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestBase" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBase.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itis.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestBase" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.deletePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itis.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestClass" />
+      <option name="METHOD_NAME" value="deletePost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itis.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestClass" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTestClass.loginTest" />
+        <item itemvalue="JUnit.TestClass.mainTest" />
+        <item itemvalue="JUnit.TestClass.deletePost" />
+        <item itemvalue="JUnit.TestBase.mainTest" />
+        <item itemvalue="JUnit.TestBase.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3efac58-5152-4d51-8603-bbb64e1a52b9" name="Default Changelist" comment="" />
+      <created>1573241803071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573241803071</updated>
+      <workItem from="1573241808744" duration="663000" />
+      <workItem from="1573242582782" duration="460000" />
+      <workItem from="1573283498628" duration="1017000" />
+      <workItem from="1573284580236" duration="4071000" />
+      <workItem from="1573636304285" duration="1357000" />
+      <workItem from="1573638305607" duration="793000" />
+      <workItem from="1573665277949" duration="32000" />
+      <workItem from="1573722785842" duration="460000" />
+      <workItem from="1573750224190" duration="320000" />
+      <workItem from="1573810964566" duration="161000" />
+      <workItem from="1573840019543" duration="2125000" />
+      <workItem from="1573844872107" duration="1226000" />
+      <workItem from="1573888555706" duration="3763000" />
+      <workItem from="1573892395802" duration="847000" />
+      <workItem from="1573999319579" duration="1515000" />
+      <workItem from="1574234431542" duration="159000" />
+      <workItem from="1574242359671" duration="828000" />
+      <workItem from="1574248424241" duration="1259000" />
+      <workItem from="1574322605308" duration="1243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
