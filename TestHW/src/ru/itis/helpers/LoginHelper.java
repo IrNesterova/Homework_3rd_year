@@ -21,5 +21,6 @@ public class LoginHelper extends HelperBase {
 
     public void logout(){
         webDriver.findElement(By.linkText("Выход")).click();
+
     }
 }

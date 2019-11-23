@@ -3,12 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="c3efac58-5152-4d51-8603-bbb64e1a52b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/helpers/LoginHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/helpers/LoginHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/CreateMessageTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/CreateMessageTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/DeleteMessageTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/DeleteMessageTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/EditMessageTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/EditMessageTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/LoginTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/LoginTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/LogoutTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/LogoutTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/itis/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/itis/helpers/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/helpers/LoginHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/CreateMessageTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/CreateMessageTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/DeleteMessageTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/DeleteMessageTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/EditMessageTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/EditMessageTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/LoginTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/LoginTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/LogoutTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/LogoutTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CreateMessageTestClass.creatingEntitiesTest">
+  <component name="RunManager" selected="JUnit.Main.Login">
     <configuration name="CreateMessageTestClass.creatingEntitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -70,6 +80,22 @@
       <option name="PACKAGE_NAME" value="ru.itis.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.itis.tests.CreateMessageTestClass" />
       <option name="METHOD_NAME" value="creatingEntitiesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteMessageTestClass.deletePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itis.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.DeleteMessageTestClass" />
+      <option name="METHOD_NAME" value="deletePost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,33 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBase.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.itis.helpers.*" />
+          <option name="PATTERN" value="ru.itis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.itis.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestBase" />
-      <option name="METHOD_NAME" value="mainTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.deletePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itis.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.itis.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestClass" />
-      <option name="METHOD_NAME" value="deletePost" />
+      <option name="PACKAGE_NAME" value="ru.itis" />
+      <option name="MAIN_CLASS_NAME" value="ru.itis.Main" />
+      <option name="METHOD_NAME" value="Login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateMessageTestClass.creatingEntitiesTest" />
+        <item itemvalue="JUnit.Main.Login" />
         <item itemvalue="JUnit.LoginTestClass.loginTest" />
+        <item itemvalue="JUnit.DeleteMessageTestClass.deletePost" />
+        <item itemvalue="JUnit.CreateMessageTestClass.creatingEntitiesTest" />
         <item itemvalue="JUnit.TestClass.mainTest" />
-        <item itemvalue="JUnit.TestClass.deletePost" />
-        <item itemvalue="JUnit.TestBase.mainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +189,11 @@
       <workItem from="1574248424241" duration="1259000" />
       <workItem from="1574322605308" duration="1243000" />
       <workItem from="1574326620767" duration="680000" />
-      <workItem from="1574327654870" duration="2120000" />
+      <workItem from="1574327654870" duration="3632000" />
+      <workItem from="1574343606899" duration="2998000" />
+      <workItem from="1574434864435" duration="3200000" />
+      <workItem from="1574492926614" duration="1224000" />
+      <workItem from="1574515264262" duration="2147000" />
     </task>
     <task id="LOCAL-00001" summary="fix create, delete, edit">
       <created>1574326823723</created>
@@ -188,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574326823723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added implicit wait">
+      <created>1574330206856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574330206856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix create, delete, edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix create, delete, edit" />
+    <MESSAGE value="wait" />
+    <MESSAGE value="added implicit wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implicit wait" />
   </component>
 </project>

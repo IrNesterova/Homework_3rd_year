@@ -1,27 +1,29 @@
 package ru.itis;
 
+import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import ru.itis.helpers.LoginHelper;
 import ru.itis.helpers.MessageHelper;
 import ru.itis.helpers.NavigationHelper;
 
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     private WebDriver webDriver;
-    private static ThreadLocal<ApplicationManager> app = new ThreadLocal<>(){
-        @Override
-        protected ApplicationManager initialValue() {
-            return super.initialValue();
+    private static ThreadLocal<ApplicationManager> app;
+    public static ApplicationManager getInstance(){
+        synchronized (ApplicationManager.class){
+            if (app == null){
+                app = new ThreadLocal<>();
+                ApplicationManager newInstance = new ApplicationManager();
+                newInstance.navigationHelper.openHomePage();
+                app.set(newInstance);
+            }
+            return app.get();
         }
-
-        @Override
-        public ApplicationManager get() {
-            return super.get();
-        }
-    };
-
+    }
 
     private LoginHelper loginHelper;
     private MessageHelper messageHelper;
@@ -44,18 +46,24 @@ public class ApplicationManager {
     }
 
     private String baseURL;
-    public ApplicationManager(){
+    public ApplicationManager() {
         webDriver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver","c:\\games\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "c:\\games\\chromedriver.exe");
         baseURL = "http://diary.ru";
         loginHelper = new LoginHelper(this);
         messageHelper = new MessageHelper(this);
         navigationHelper = new NavigationHelper(this, baseURL);
+
     }
+
+
+    @AfterClass
+    public static void afterClass(){
+        app.
+    }
+
     public void Wait(){
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
-    public void Stop(){
-        webDriver.quit();
-    }
+
 }

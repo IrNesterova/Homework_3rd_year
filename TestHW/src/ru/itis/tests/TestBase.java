@@ -13,17 +13,12 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase  {
     protected int time = 5;
-    protected ApplicationManager app;
-
+    ApplicationManager app;
     @Before
     public void setUp(){
-        app = new ApplicationManager();
+        app = ApplicationManager.getInstance();
     }
 
-    @After
-    public void TeardownTest(){
-        app.Stop();
-    }
     @BeforeClass
     public static void site_test_1() {
         System.setProperty("webdriver.chrome.driver","c:\\games\\chromedriver.exe");
