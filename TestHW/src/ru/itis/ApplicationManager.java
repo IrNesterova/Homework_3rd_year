@@ -57,10 +57,6 @@ public class ApplicationManager {
     }
 
 
-    @AfterClass
-    public static void afterClass(){
-        app.
-    }
 
     public void Wait(){
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
