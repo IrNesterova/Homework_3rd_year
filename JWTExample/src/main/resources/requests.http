@@ -1,0 +1,30 @@
+POST http://localhost:8080/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "login" : "aina",
+  "password": "aina"
+}
+
+###
+
+POST http://localhost/messages
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhaW5hIiwiZXhwIjoxNTcxMzM5MzA0LCJpYXQiOjE1NzEyNTI5MDR9.2L33yh2C0XUeMxNTMm_yfcT9V_9wgjPk4osIYCmaH8aUdpcBJh4uvAFjb0snV60QyCKQAfSbOdE3mYVIPzGg3A
+
+{
+  "text": "Hi, all"
+}
+
+###
+
+GET http://localhost:8080/messages
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhaW5hIiwiZXhwIjoxNTcxMzM5MzA0LCJpYXQiOjE1NzEyNTI5MDR9.2L33yh2C0XUeMxNTMm_yfcT9V_9wgjPk4osIYCmaH8aUdpcBJh4uvAFjb0snV60QyCKQAfSbOdE3mYVIPzGg3A
+###

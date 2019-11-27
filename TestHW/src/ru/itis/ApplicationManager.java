@@ -7,12 +7,13 @@ import ru.itis.helpers.LoginHelper;
 import ru.itis.helpers.MessageHelper;
 import ru.itis.helpers.NavigationHelper;
 
-import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    private WebDriver webDriver;
+    private WebDriver webDriver =
+             new ChromeDriver();;
     private static ThreadLocal<ApplicationManager> app;
+
     public static ApplicationManager getInstance(){
         synchronized (ApplicationManager.class){
             if (app == null){
@@ -24,6 +25,8 @@ public class ApplicationManager {
             return app.get();
         }
     }
+
+
 
     private LoginHelper loginHelper;
     private MessageHelper messageHelper;
@@ -47,13 +50,11 @@ public class ApplicationManager {
 
     private String baseURL;
     public ApplicationManager() {
-        webDriver = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "c:\\games\\chromedriver.exe");
         baseURL = "http://diary.ru";
         loginHelper = new LoginHelper(this);
         messageHelper = new MessageHelper(this);
         navigationHelper = new NavigationHelper(this, baseURL);
-
     }
 
 

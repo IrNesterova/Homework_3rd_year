@@ -1,6 +1,7 @@
 package ru.itis.tests;
 
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -25,5 +26,9 @@ public class TestBase  {
     }
 
 
+    @After
+    public void tearDown(){
+        app.getWebDriver().quit();
+    }
 
 }
