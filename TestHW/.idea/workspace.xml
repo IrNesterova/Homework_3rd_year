@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3efac58-5152-4d51-8603-bbb64e1a52b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/itis/JsonTestGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/itis/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/itis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/itis/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/ru/itis/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Новая папка (6)/client-combined-3.141.59.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jackson-all-1.9.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,7 +56,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTestClass.loginTest">
+  <component name="RunManager" selected="Application.JsonTestGenerator">
+    <configuration name="JsonTestGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itis.JsonTestGenerator" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateMessageTestClass.creatingEntitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -120,29 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itis.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.itis.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.itis.tests.TestClass" />
-      <option name="METHOD_NAME" value="mainTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonTestGenerator" />
         <item itemvalue="JUnit.LoginTestClass.loginTest" />
         <item itemvalue="JUnit.DeleteMessageTestClass.deletePost" />
         <item itemvalue="JUnit.Main.Login" />
         <item itemvalue="JUnit.CreateMessageTestClass.creatingEntitiesTest" />
-        <item itemvalue="JUnit.TestClass.mainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +180,9 @@
       <workItem from="1574492926614" duration="1224000" />
       <workItem from="1574515264262" duration="3449000" />
       <workItem from="1574845064260" duration="1149000" />
+      <workItem from="1574870736540" duration="155000" />
+      <workItem from="1575372847167" duration="1147000" />
+      <workItem from="1576245981211" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="fix create, delete, edit">
       <created>1574326823723</created>
