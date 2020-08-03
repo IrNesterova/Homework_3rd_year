@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7eb1379d-9a13-491d-862c-02bafc02f1c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fXLX6Y0f5J7WgwfAdEBces6YAi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.cat-service: Compose Deployment">
+    <configuration name="CatsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itis.CatsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountriesServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="countries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itis.countries.CountriesServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itis.eureka.ServiceRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="usersinfo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itis.UserInfoServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatsService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="CatsService/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="EurekaService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="EurekaService/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.cat-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="cat-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.zuul-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="zuul-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.cat-service: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.zuul-service: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.EurekaService/Dockerfile" />
+        <item itemvalue="Docker.CatsService/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eb1379d-9a13-491d-862c-02bafc02f1c7" name="Default Changelist" comment="" />
+      <created>1596359527408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596359527408</updated>
+      <workItem from="1596359549966" duration="3708000" />
+      <workItem from="1596440937423" duration="206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1321" height="191" key="GridCell.Tab.0.bottom" timestamp="1596363484527">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
+    <state width="1321" height="191" key="GridCell.Tab.0.center" timestamp="1596363484527">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
+    <state width="1321" height="191" key="GridCell.Tab.0.left" timestamp="1596363484527">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
+    <state width="1321" height="191" key="GridCell.Tab.0.right" timestamp="1596363484527">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
+    <state x="183" y="25" key="SettingsEditor" timestamp="1596360845610">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="183" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596360845610" />
+    <state x="64" y="107" key="new project wizard" timestamp="1596441036110">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="64" y="107" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1596441036110" />
+  </component>
+</project>

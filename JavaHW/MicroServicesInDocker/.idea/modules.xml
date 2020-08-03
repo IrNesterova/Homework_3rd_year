@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CatsService/cat.iml" filepath="$PROJECT_DIR$/CatsService/cat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CountriesService/countries.iml" filepath="$PROJECT_DIR$/CountriesService/countries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker.iml" filepath="$PROJECT_DIR$/docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaService/eureka.iml" filepath="$PROJECT_DIR$/EurekaService/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UsersInfoService/usersinfo.iml" filepath="$PROJECT_DIR$/UsersInfoService/usersinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulService/zuul.iml" filepath="$PROJECT_DIR$/ZuulService/zuul.iml" />
+    </modules>
+  </component>
+</project>
