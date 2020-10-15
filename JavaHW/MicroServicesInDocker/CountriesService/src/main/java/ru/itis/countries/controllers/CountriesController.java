@@ -9,7 +9,7 @@ import ru.itis.countries.dto.FlagDto;
 import ru.itis.countries.services.CountriesService;
 
 @RestController
-public class CountriesController {
+public class    CountriesController {
 
     @Autowired
     private CountriesService service;

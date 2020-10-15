@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import static lab.chat.demo.transfer.MessageDto.*;
 
@@ -60,5 +61,18 @@ public class MessageServiceImpl implements MessageService {
             messages.get(dto.getLogin()).clear();
             return response;
         }
+    }
+
+    @Override
+    public List<Message> getAllMessages() {
+        return repository.findAll();
+    }
+
+    @Override
+    public List<MessageDto> getAllMessagesDto() {
+        return getAllMessages().stream().map(temp -> MessageDto.builder()
+                .text(temp.getText())
+                .login(temp.getUser().getLogin())
+                .build()).collect(Collectors.toList());
     }
 }

@@ -2,24 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="countries" />
         <module name="zuul" />
-        <module name="usersinfo" />
         <module name="cat" />
         <module name="eureka" />
-        <module name="countries" />
+        <module name="usersinfo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="cat" target="8" />
-      <module name="countries" target="8" />
-      <module name="docker" target="8" />
-      <module name="eureka" target="8" />
-      <module name="usersinfo" target="8" />
-      <module name="zuul" target="8" />
+      <module name="cat" target="1.6" />
+      <module name="countries" target="1.6" />
+      <module name="docker" target="1.6" />
+      <module name="eureka" target="1.6" />
+      <module name="usersinfo" target="1.6" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

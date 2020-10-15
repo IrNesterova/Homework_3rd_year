@@ -18,6 +18,7 @@ ribbon:
   ConnectTimeout: 10000
   ReadTimeout: 30000
 
+
 hystrix:
   threadpool:
     default:

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@ec2-3-226-74-189.compute-1.amazonaws.com" uuid="95bd3d1a-fbfa-4ba6-91cd-1b98592f6edd">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://ec2-3-226-74-189.compute-1.amazonaws.com:9042</jdbc-url>
+    </data-source>
+  </component>
+</project>

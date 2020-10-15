@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 public class RegistrationServiceImpl implements RegistrationService {
 
     private final UsersRepository repository;
+    @Autowired
     private final PasswordEncoder encoder;
 
     @Autowired
@@ -24,13 +25,14 @@ public class RegistrationServiceImpl implements RegistrationService {
     @Override
     public void signUp(UserForm form) {
         String hashPassword = encoder.encode(form.getPassword());
+        System.out.println(form.getLogin() + form.getPassword());
         User user = User.builder()
                 .login(form.getLogin())
                 .hashPassword(hashPassword)
                 .role(Role.USER)
                 .state(State.ACTIVE)
                 .build();
-
+        System.out.println(user);
         repository.save(user);
     }
 }

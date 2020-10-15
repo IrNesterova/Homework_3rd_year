@@ -1,11 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7eb1379d-9a13-491d-862c-02bafc02f1c7" name="Default Changelist" comment="" />
+    <list default="true" id="7eb1379d-9a13-491d-862c-02bafc02f1c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_7_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/.mvn/.mvn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandra/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandra/src/main/java/ru/itis/CassandraConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandrademo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandrademo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandrademo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandrademo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandrademo/cassandrademo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cassandrademo/src/main/java/CassandraConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../longpollingfrontreact/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/cover_bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/donuts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/fon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/fonLog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/fonLog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/fonLog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/fonLog4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/fonLog5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img_bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img_bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/img_bg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/loc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/signin-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/signup-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/images/test1/666.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/components/Chat/Chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/components/Login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/components/Registration/Registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/components/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactlp/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocketjwt/my-app/src/assets/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocketjwt/my-app/src/assets/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountriesService/src/main/java/ru/itis/countries/controllers/CountriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CountriesService/src/main/java/ru/itis/countries/controllers/CountriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/controllers/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/controllers/MessagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/services/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/services/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/services/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/java/lab/chat/demo/services/RegistrationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleLongPollingChat/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleLongPollingChat/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/AuthenticatedRoute.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/ChatComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/InstructorApp.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/LoginComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/LogoutComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/MenuComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/RegisterComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/Room1Component.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/Room2Component.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/component/Room3Component.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/service/AuthenticationService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/service/MessageService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/my-app/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/WebsocketApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/config/WebSocketConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/dto/MessageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/dto/TokenDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/filter/SimpleCorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/jwt/JwtHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/model/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/repository/MessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/service/ChatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/service/ChatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/java/ru/itis/websocket/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wevsoket-simple-jwt-master/src/main/resources/application.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,6 +253,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1fXLX6Y0f5J7WgwfAdEBces6YAi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,13 +261,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.cat-service: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml.country-service: Compose Deployment">
     <configuration name="CatsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cat" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itis.CatsServiceApplication" />
@@ -57,22 +297,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatsService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="CatsService/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="EurekaService/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="EurekaService/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -87,6 +311,32 @@
           <option name="services">
             <list>
               <option value="cat-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.country-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="country-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.user-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="user-service" />
             </list>
           </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
@@ -109,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.country-service: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.user-service: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.cat-service: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.zuul-service: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.EurekaService/Dockerfile" />
-        <item itemvalue="Docker.CatsService/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +391,17 @@
       <updated>1596359527408</updated>
       <workItem from="1596359549966" duration="3708000" />
       <workItem from="1596440937423" duration="206000" />
+      <workItem from="1597334449689" duration="2278000" />
+      <workItem from="1597665513631" duration="654000" />
+      <workItem from="1597934105759" duration="74000" />
+      <workItem from="1601468367724" duration="3442000" />
+      <workItem from="1601643029740" duration="9000" />
+      <workItem from="1601656245237" duration="1051000" />
+      <workItem from="1601659685614" duration="51000" />
+      <workItem from="1601716840835" duration="45000" />
+      <workItem from="1601721595739" duration="29000" />
+      <workItem from="1601724345004" duration="426000" />
+      <workItem from="1601724787557" duration="1418000" />
     </task>
     <servers />
   </component>
@@ -148,22 +409,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1321" height="191" key="GridCell.Tab.0.bottom" timestamp="1596363484527">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1601471825211">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
-    <state width="1321" height="191" key="GridCell.Tab.0.center" timestamp="1596363484527">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601471825211" />
+    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1601471825211">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
-    <state width="1321" height="191" key="GridCell.Tab.0.left" timestamp="1596363484527">
+    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601471825211" />
+    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1601471825210">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
-    <state width="1321" height="191" key="GridCell.Tab.0.right" timestamp="1596363484527">
+    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601471825210" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1601471825211">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1596363484527" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601471825211" />
+    <state x="263" y="122" key="IDE.errors.dialog" timestamp="1601469483792">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="122" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1601469483792" />
     <state x="183" y="25" key="SettingsEditor" timestamp="1596360845610">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

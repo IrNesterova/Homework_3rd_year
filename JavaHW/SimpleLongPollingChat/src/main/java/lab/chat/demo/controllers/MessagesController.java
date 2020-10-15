@@ -10,6 +10,7 @@ import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,22 +32,24 @@ public class MessagesController {
         this.detailsService = detailsService;
     }
 
-    @PostMapping
-    public ResponseEntity<Object> receiveMessage(@RequestBody MessageForm message) {
-        UserDetailsImpl details = (UserDetailsImpl) detailsService.loadUserByUsername(message.getToken());
-        User user = details.getUser();
-        service.receiveMessage(message, user);
-        return ResponseEntity.ok().build();
-    }
+        @PostMapping
+        public ResponseEntity<Object> receiveMessage(@RequestBody MessageForm message) {
+            UserDetailsImpl details = (UserDetailsImpl) detailsService.loadUserByUsername(message.getToken());
+            User user = details.getUser();
+            service.receiveMessage(message, user);
+            return ResponseEntity.ok().build();
+        }
 
     @SneakyThrows
     @GetMapping
-    public ResponseEntity<List<MessageDto>> getMessagesForPage(@RequestParam("token") String token) {
+    public ResponseEntity<List<MessageDto>> getMessagesForPage(@RequestHeader("AUTH") String token) {
         UserDetailsImpl details = (UserDetailsImpl) detailsService.loadUserByUsername(token);
         UserDto dto = form(details.getUser());
+        System.out.println(dto);
         List<MessageDto> response = service.getMessagesForPage(dto);
         System.out.println(response);
         return ResponseEntity.ok(response);
     }
+
 }
 

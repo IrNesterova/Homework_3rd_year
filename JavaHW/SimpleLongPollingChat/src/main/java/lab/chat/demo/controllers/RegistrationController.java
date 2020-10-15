@@ -3,10 +3,9 @@ package lab.chat.demo.controllers;
 import lab.chat.demo.forms.UserForm;
 import lab.chat.demo.services.RegistrationServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.Console;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -21,7 +20,8 @@ public class RegistrationController {
     }
 
     @PostMapping
-    public String signUp(UserForm form) {
+    public String signUp(@RequestBody UserForm form) {
+        System.out.println("Login: " + form.getLogin() + " password " + form.getPassword());
         service.signUp(form);
         return "redirect:/login";
     }

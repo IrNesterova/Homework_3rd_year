@@ -33,7 +33,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/signIn", "/register", "/login", "/signUp", "/swagger-ui.html#/**").permitAll()
+                .antMatchers("/signIn", "/register", "/login", "/signUp", "/registration", "/messages", "/swagger-ui.html#/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .csrf().disable()
