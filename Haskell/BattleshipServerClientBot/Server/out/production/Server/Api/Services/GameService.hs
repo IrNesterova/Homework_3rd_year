@@ -501,6 +501,7 @@ setPublic mongoHost mongoUser mongoPass mongoDb = do
               let msess = (B.unpack <$> session)
               rights <- liftIO $ fillRights pipe mongoDb game msess
               let doit n = do
+
                   let act = [(
                                [
                                  "game" =: game
@@ -520,6 +521,16 @@ setPublic mongoHost mongoUser mongoPass mongoDb = do
                             a $ MQ.insert "chats" chat
                               writeLBS "ok"
                               modifyResponse . setResponseCode $ 200
+
+                  case rights of
+                                    GameRights True True _ NOTREADY _ name False _ _ -> do
+                                        doit name
+                                    GameRights True True _ NOTREADY_WITH_MAP _ name False _ _ -> do
+                                        doit name
+
+                                    _ -> do
+                                        writeLBS . encode $ APIError "Can't make this game public!"
+                                        modifyResponse $ setResponseCode 400
   liftIO $ closeConnection pipe
 
 ---------------------------------
@@ -540,6 +551,7 @@ setPublic mongoHost mongoUser mongoPass mongoDb = do
 --   {message}
 connectGamePlayer :: Host -> Username -> Password -> Database -> SN.Handler b GameService ()
 connectGamePlayer mongoHost mongoUser mongoPass mongoDb = do
+
   time <- liftIO $ round . (* 10000) <$> getPOSIXTime
   pipe <- liftIO $ connectAndAuth mongoHost mongoUser mongoPass mongoDb
   let a action = liftIO $ performAction pipe mongoDb action
