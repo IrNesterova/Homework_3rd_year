@@ -5,7 +5,7 @@ module Site (app) where
 import           Api.Core
 import           Data.Configurator
 import           Control.Lens
-import           Control.Monad.Error
+import           Control.Monad.Except
 import           Control.Applicative
 import           Data.ByteString (ByteString)
 import qualified Data.Text as T
@@ -22,7 +22,6 @@ import qualified Heist.Interpreted as I
 import           App
 
 routes :: String -> [(ByteString, Handler App App())]
-routes :: String -> [(ByteString, Handler App App ())]
 routes s = [ ("", serveDirectoryWith defaultDirectoryConfig s)
            , ("/games/:gameid", serveFile $ s ++ "/index.html")
            , ("/games/:gameid/:sessionid", serveFile $ s ++ "/index.html")

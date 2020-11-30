@@ -13,7 +13,7 @@ import Control.Monad
 data Turn = OWNER|PLAYER|NOTREADY|NOTREADY_WITH_MAP|CONFIG|CONFIG_WAIT_OWNER|CONFIG_WAIT_PLAYER|PLAYER_WIN|OWNER_WIN
 
 instance ToJSON Turn where
-  toJson t = case t of
+  toJSON t = case t of
     OWNER->"owner"
     PLAYER->"player"
     NOTREADY->"notready"
@@ -44,7 +44,7 @@ data PublicGame = PublicGame { pgGameId :: String
                              }
 
 instance ToJSON PublicGame where
-  toJson (PublicGame g o m r t) = object ["game" .= g, "owner" .= o, "message" .= m, "rules" .= r, "turn" .= t]
+  toJSON (PublicGame g o m r t) = object ["game" .= g, "owner" .= o, "message" .= m, "rules" .= r, "turn" .= t]
 
 data NewGameUser = NewGameUser {nguName :: String, nguMessage :: String, nguRules :: String}
 instance FromJSON NewGameUser where
