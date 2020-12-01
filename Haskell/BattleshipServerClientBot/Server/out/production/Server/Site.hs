@@ -28,15 +28,15 @@ routes s = [ ("", serveDirectoryWith defaultDirectoryConfig s)
            ]
 
 app :: SnapletInit App App
-app = makeSnaplet "battleship" "Battleship application." Nothing $ do
+app = makeSnaplet "BattleshipServerClientBot" "Battleship application." Nothing $ do
   conf <- getSnapletUserConfig
-  staticPath <- liftIO $ require conf "battleship.static.path"
-  mongoHost <- liftIO $ require conf "battleship.mongo.host"
-  mongoUser <- liftIO $ require conf "battleship.mongo.user"
-  mongoPass <- liftIO $ require conf "battleship.mongo.pass"
-  mongoDb <- liftIO $ require conf "battleship.mongo.db"
-  rulesPath <- liftIO $ require conf "battleship.rules"
-  botsPath <- liftIO $ require conf "battleship.bots"
+  staticPath <- liftIO $ require conf "BattleshipServerClientBot.static.path"
+  mongoHost <- liftIO $ require conf "BattleshipServerClientBot.mongo.host"
+  mongoUser <- liftIO $ require conf "BattleshipServerClientBot.mongo.user"
+  mongoPass <- liftIO $ require conf "BattleshipServerClientBot.mongo.pass"
+  mongoDb <- liftIO $ require conf "BattleshipServerClientBot.mongo.db"
+  rulesPath <- liftIO $ require conf "BattleshipServerClientBot.rules"
+  botsPath <- liftIO $ require conf "BattleshipServerClientBot.bots"
   a <- nestSnaplet "api" api $ apiInit mongoHost mongoUser mongoPass mongoDb rulesPath botsPath
   addRoutes $ routes $ staticPath
   return $ App a
